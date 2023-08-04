@@ -28,7 +28,7 @@ In this project, I am learning new concepts, implementing challenging features, 
 
 ## Contact
 
-- 📫 Email: dotmota@outlook.com
+- Email: dotmota@outlook.com
 - LinkedIn: [/dotmota](https://www.linkedin.com/in/dotmota/)
 
 I hope this information gives you a better view of my journey as a developer. Feel free to reach out to me through if you want to connect or have any questions! 😊🚀
