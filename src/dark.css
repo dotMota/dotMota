@@ -1,0 +1,30 @@
+.leftContent {
+  background-color: #051336;
+}
+.icon{
+  color: #d8d8cd;
+  border-color: #d8d8cd;
+}
+.icon:hover {
+  border-color: #fbfbfc;
+  color: #fbfbfc;
+  background-color: #060621;
+}
+
+.menuContent {
+  background-color: #060621;
+}
+
+.options{
+  color: #d8d8cd;
+  border-color: #060621;
+}
+
+.options:hover {
+  color: #08205c;
+}
+
+.rightContent {
+  background-color: #000c18;
+  color: #ddd;
+}
