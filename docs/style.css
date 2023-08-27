@@ -49,7 +49,7 @@ body {
   gap: 20px;
 }
 
-.icon {
+.downIcons .icon, .gridIcons .icon {
   width: 20px;
   height: 20px;
   padding: 10px;
