@@ -147,3 +147,11 @@ body {
   grid-column: 2;
   margin-top: 5vh;
 }
+
+@media screen and (min-width: 1000px) {
+
+  .rightContent {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+  }
+}
