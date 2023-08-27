@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="light.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mobile.css" />
   <title>Grid Layout</title>
 </head>
 
 <body>
   <div class="leftContent">
-    <div class="gridIcons">
+    <div class="gridIcons normalize">
       <a href="#sobre"><ion-icon class="icon" name="person-circle-outline"></ion-icon></a>
       <a href="#localizacao"><ion-icon class="icon" name="map-outline"></ion-icon></a>
       <a href="#projetos"><ion-icon class="icon" name="terminal-outline"></ion-icon></a>
@@ -19,8 +20,8 @@
       <a href="#atividades"><ion-icon class="icon" name="rocket-outline"></ion-icon></a>
       <a href="#experiencias"><ion-icon class="icon" name="briefcase-outline"></ion-icon></a>
     </div>
-    <div class="downIcons">
-      <ion-icon class="icon" id="mode" name="invert-mode-outline"></ion-icon>
+    <div class="downIcons normalize">
+      <a><ion-icon class="icon" id="mode" name="invert-mode-outline"></ion-icon></a>
     </div>
   </div>
   <div class="menuContent">
@@ -48,17 +49,26 @@
 
   <div class="rightContent">
     <section class="content" id="sobre">
-      <p>Olá! Eu sou,</p>
-      <h1>Vinícius Nascimento Mota</h1>
-      <p>
-        Com uma vontade constante de evoluir e ampliar meus conhecimentos,
-        concentro-me em aplicar o que aprendo no desenvolvimento full Stack.
-        Minha paixão pela tecnologia me impulsiona a buscar constantemente
-        aprimoramento, destacando-me pela criatividade e pela busca incessante
-        por novas soluções. Ao criar interações inovadoras, meu objetivo é
-        fornecer soluções funcionais e envolventes que garantam a satisfação
-        dos usuários.
-      </p>
+      <div class="leftColumn">
+        <span class="title">
+          <p>Olá! Meu nome é,</p>
+          <h1>Vinícius Nascimento Mota</h1>
+        </span>
+        <p class="paragraph">
+          Com uma vontade constante de evoluir e ampliar meus conhecimentos,
+          concentro-me em aplicar o que aprendo no desenvolvimento full Stack.
+          Minha paixão pela tecnologia me impulsiona a buscar constantemente
+          aprimoramento, destacando-me pela criatividade e pela busca incessante
+          por novas soluções. Ao criar interações inovadoras, meu objetivo é
+          fornecer soluções funcionais e envolventes que garantam a satisfação
+          dos usuários.
+        </p>
+      </div>
+      <div class="rightColumn">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, molestiae labore sed velit facilis, expedita
+        mollitia rerum consequatur soluta assumenda, consectetur deleniti tempore atque unde tempora. Quaerat sapiente
+        repudiandae minus.
+      </div>
     </section>
     <section class="content" id="localizacao">
       Conteúdo da Localização
