@@ -22,7 +22,11 @@
     .rightContent section {
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
 
+=======
+        overflow-y: hidden;
+>>>>>>> 4034e9167b48895c2743175dbb68cfd0514c8c5a
     }
 
 
