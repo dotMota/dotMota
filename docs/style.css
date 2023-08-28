@@ -14,14 +14,6 @@ a {
   display: flex;
   align-items: center;
 }
-h1{
-  font-family: "Lexend Mega", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   display: grid;
@@ -123,8 +115,14 @@ body {
 
 .content {
   grid-area: content;
-  padding: 40px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
+  section{
+    padding: 40px;
+    height: calc(100vh - 80px);
+    scroll-snap-align: start;
+  }
 
 @media screen and (max-height: 600px) {
   .aside {

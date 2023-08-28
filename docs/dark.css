@@ -1,9 +1,8 @@
-
-.profile{
+.profile {
     background-color: #111;
 }
 
-.profilePhoto{
+.profilePhoto {
     border: 1px solid white;
     border-radius: 15px;
 }
@@ -12,29 +11,30 @@
     background-color: #111;
 }
 
-.menu{
+.menu {
     background-color: #222;
     color: white;
 }
 
-.mode{
+.mode {
     background-color: #111;
 }
 
-.mode a{
-    border: 1px solid #777 ;
+.mode a {
+    border: 1px solid #777;
     border-radius: 15px;
     background-color: #eee;
     color: #000;
+    cursor: pointer
 }
 
-.mode .iconMode{
+.mode .iconMode {
     color: #000;
     border: 1px solid #777;
     border-radius: 15px;
 }
 
-.iconContact{
+.iconContact {
     color: white;
     border: 1px solid white;
     border-radius: 15px;
@@ -42,24 +42,46 @@
 }
 
 
-.icon{
+.icon {
     color: white;
     border: 1px solid white;
     border-radius: 15px;
     background-color: #000;
-}   
+}
 
-.iconMode{
+.iconMode {
     color: white;
     border: 1px solid white;
     border-radius: 15px;
+    cursor: pointer
 }
 
-.iconContact:hover , .icon:hover{
+.iconContact:hover,
+.icon:hover {
     background-color: #777;
+    cursor: pointer
 }
 
-.content{
+.content {
+  color: #fff;
+}
+
+body, #sobre {
+    background-color: #000;
+}
+
+#projetos {
+    background-color: #111;
+}
+
+#formacao {
+    background-color: #222;
+}
+
+#atividades {
     background-color: #333;
-    color: #fff;
+}
+
+#experiencias {
+    background-color: #444;
 }

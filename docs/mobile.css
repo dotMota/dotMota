@@ -1,18 +1,18 @@
 @media screen and (max-width: 800px) {
     body {
         display: grid;
-        grid-template-rows: calc(100vh - 80px) 80px;
+        grid-template-rows: calc(100vh - 80px) 80px ;
         grid-template-columns: 100vw;
-        grid-template-areas:    "content"
-                                "aside";
+        grid-template-areas:   "content" "aside";                    
         overflow: none;
     }
 
     .aside {
         display: grid;
-        grid-template-rows: minmax(80px, 10vh);
+        grid-template-rows: 80px;
         grid-template-columns: 100vw;
         grid-template-areas: "menu";
+        position: fixed;
     }
 
     .mode,
@@ -22,6 +22,10 @@
 
     .menu {
         grid-area: menu;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+  
     }
 
     .gridIcons {

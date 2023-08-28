@@ -57,6 +57,24 @@
 }
 
 .content{
-    background-color: #ccc;
     color: #000;
+}
+body, #sobre {
+    background-color: #fff;
+}
+
+#projetos {
+    background-color: #eee;
+}
+
+#formacao {
+    background-color: #ddd;
+}
+
+#atividades {
+    background-color: #ccc;
+}
+
+#experiencias {
+    background-color: #bbb;
 }
