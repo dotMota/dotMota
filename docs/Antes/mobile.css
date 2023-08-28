@@ -1,0 +1,115 @@
+@media screen and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .rightContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+    }
+
+    .rightContent section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        padding: 4%;
+        width: 92%;
+    }
+
+
+
+
+
+
+
+    /* MENU */
+
+    .leftContent {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        height: 4em;
+
+    }
+
+    .gridIcons {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .downIcons {
+        margin-left: 95%;
+        padding-right: 5px;
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .normalize {
+        height: 4em;
+        margin: 0;
+        padding: 0;
+        gap: 5px;
+
+    }
+
+    .downIcons .icon,
+    .gridIcons .icon {
+        width: 2em;
+        height: 2em;
+        padding: 5px;
+        margin: 5px 2px;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+
+    .menuContent {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .downIcons {
+        display: none;
+    }
+
+    .gridIcons {
+        min-width: 300px;
+        width: 100vw;
+    }
+    .downIcons .icon,
+    .gridIcons .icon {
+        width: 1.8em;
+        height: 1.8em;
+        padding: 0.5em;
+        margin: 5px 3px;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+}

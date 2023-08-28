@@ -1,0 +1,63 @@
+.leftContent {
+  background-color: #c2b5d6;
+}
+
+a .icon,
+.icon {
+  color: #705697;
+  border: 1px solid  #705697;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  border-color: #372a4a;
+  color: #372a4a;
+  background-color: #f2f2f2;
+}
+
+.menuContent {
+  background-color: #f2f2f2;
+}
+
+
+a .options {
+  color: #705697;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+}
+
+.options:hover {
+  color: #372a4a;
+}
+
+.rightContent {
+  color: black;
+}
+
+.profileBase .profilePhoto{
+  border: 1px solid #705697;
+  border-radius: 50%;
+}
+section:nth-of-type(1) {
+  background-color: #fff;
+}
+
+section:nth-of-type(2) {
+  background-color: #eee;
+}
+
+section:nth-of-type(3) {
+  background-color: #ddd;
+}
+
+section:nth-of-type(4) {
+  background-color: #ccc;
+}
+
+section:nth-of-type(5) {
+  background-color: #bbb;
+}
+
+section:nth-of-type(6) {
+  background-color: #aaa;
+}

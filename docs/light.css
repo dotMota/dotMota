@@ -1,56 +1,62 @@
-.leftContent {
-  background-color: #c2b5d6;
+
+.profile{
+    background-color: #eee;
 }
 
-a .icon,
-.icon {
-  color: #705697;
-  border-color: #705697;
+.profilePhoto{
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
-.icon:hover {
-  border-color: #372a4a;
-  color: #372a4a;
-  background-color: #f2f2f2;
+.profile .gridContact {
+    background-color: #eee;
 }
 
-.menuContent {
-  background-color: #f2f2f2;
+.menu{
+    background-color: #ddd;
+    color: black;
 }
 
-a .options {
-  color: #705697;
-  border-color: #f2f2f2;
+.mode{
+    background-color: #eee;  
 }
 
-.options:hover {
-  color: #372a4a;
+.mode a{
+    border: 1px solid #aaa ;
+    border-radius: 15px;
+    background-color: #111;
+    color: #fff;
 }
 
-.rightContent {
-  color: black;
+.mode .iconMode{
+    color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+}
+.iconContact{
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #fff;
 }
 
-section:nth-of-type(1) {
-  background-color: #fff;
+.icon{
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.iconMode{
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
-section:nth-of-type(2) {
-  background-color: #eee;
+.iconContact:hover , .icon:hover{
+    background-color: #aaa;
 }
 
-section:nth-of-type(3) {
-  background-color: #ddd;
-}
-
-section:nth-of-type(4) {
-  background-color: #ccc;
-}
-
-section:nth-of-type(5) {
-  background-color: #bbb;
-}
-
-section:nth-of-type(6) {
-  background-color: #aaa;
+.content{
+    background-color: #ccc;
+    color: #000;
 }
