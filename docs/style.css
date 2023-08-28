@@ -122,7 +122,12 @@ body {
     padding: 40px;
     height: calc(100vh - 80px);
     scroll-snap-align: start;
+    overflow-y: auto;
   }
+  
+#blank {
+  display: none;
+}
 
 @media screen and (max-height: 600px) {
   .aside {

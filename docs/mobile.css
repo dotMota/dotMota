@@ -3,7 +3,8 @@
         display: grid;
         grid-template-rows: calc(100vh - 80px) 80px ;
         grid-template-columns: 100vw;
-        grid-template-areas:   "content" "aside";                    
+        grid-template-areas:   "content" 
+                                "aside";                    
         overflow: none;
     }
 
@@ -50,5 +51,13 @@
       .content{
         grid-area: content;
         overflow-y: auto;
+      }
+
+      .content section{
+        height: auto;
+        overflow-y: auto;
+      }
+      #blank {
+        display: flex;
       }
 }
