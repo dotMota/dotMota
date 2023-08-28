@@ -1,0 +1,41 @@
+
+.profile{
+    background-color: #111;
+}
+
+.profilePhoto{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.profile .gridContact {
+    background-color: #111;
+}
+
+.menu{
+    background-color: #222;
+    color: white;
+}
+
+.mode{
+    background-color: #111;
+}
+
+.mode a{
+    border: 1px solid #777 ;
+    border-radius: 15px;
+    background-color: #eee;
+    color: #000;
+}
+
+.mode .icon{
+    color: #000;
+    border: 1px solid #777;
+    border-radius: 15px;
+}
+
+.icon{
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
