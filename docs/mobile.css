@@ -54,10 +54,19 @@
       }
 
       .content section{
-        height: auto;
+        height: calc(100vh - 160px);
         overflow-y: auto;
       }
       #blank {
-        display: flex;
+        display: none;
+      }
+
+      #atividades .row{
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+      }
+      #experiencias .row{
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
       }
 }

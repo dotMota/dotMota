@@ -1,9 +1,8 @@
-
-.profile{
+.profile {
     background-color: #eee;
 }
 
-.profilePhoto{
+.profilePhoto {
     border: 1px solid black;
     border-radius: 15px;
 }
@@ -12,54 +11,62 @@
     background-color: #eee;
 }
 
-.menu{
+.menu {
     background-color: #ddd;
     color: black;
 }
 
-.mode{
-    background-color: #eee;  
+.mode {
+    background-color: #eee;
 }
 
-.mode a{
-    border: 1px solid #aaa ;
+.mode a {
+    border: 1px solid #aaa;
     border-radius: 15px;
     background-color: #111;
     color: #fff;
+    cursor: pointer
 }
 
-.mode .iconMode{
+.mode .iconMode {
     color: #fff;
     border: 1px solid #aaa;
     border-radius: 15px;
 }
-.iconContact{
+
+.iconContact {
     color: black;
     border: 1px solid black;
     border-radius: 15px;
     background-color: #fff;
 }
 
-.icon{
+.icon {
     color: black;
     border: 1px solid black;
     border-radius: 15px;
     background-color: #fff;
 }
-.iconMode{
+
+.iconMode {
     color: black;
     border: 1px solid black;
     border-radius: 15px;
+    cursor: pointer;
 }
 
-.iconContact:hover , .icon:hover{
+.iconContact:hover,
+.icon:hover {
     background-color: #aaa;
+    cursor: pointer;
 }
 
-.content{
+.content {
     color: #000;
 }
-body, #sobre {
+
+body,
+#sobre {
     background-color: #fff;
 }
 
@@ -77,4 +84,33 @@ body, #sobre {
 
 #experiencias {
     background-color: #bbb;
+}
+
+#atividades .formacaoCard {
+    background-color: #ede;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#formacao .formacaoCard {
+    background-color: #a1c4fd;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+
+.expCard .cargo {
+    background-color: #eee;
+}
+
+.expCard .empresa {
+    background-color: #ccc;
+}
+
+.expCard .tempo {
+    background-color: #ddd;
+}
+
+.expCard .funcoes {
+    background-color: #a1c4fd;
 }

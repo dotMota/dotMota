@@ -41,7 +41,6 @@
     background-color: #000;
 }
 
-
 .icon {
     color: white;
     border: 1px solid white;
@@ -63,10 +62,11 @@
 }
 
 .content {
-  color: #fff;
+    color: #fff;
 }
 
-body, #sobre {
+body,
+#sobre {
     background-color: #000;
 }
 
@@ -84,4 +84,33 @@ body, #sobre {
 
 #experiencias {
     background-color: #444;
+}
+
+#atividades .formacaoCard {
+    background-color: #242;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#formacao .formacaoCard {
+    background-color: #424;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+
+.expCard .cargo {
+    background-color: #111;
+}
+
+.expCard .empresa {
+    background-color: #333;
+}
+
+.expCard .tempo {
+    background-color: #222;
+}
+
+.expCard .funcoes {
+    background-color: #424;
 }
